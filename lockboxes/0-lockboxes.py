@@ -8,7 +8,7 @@ def canUnlockAll(boxes):
     Return True if all boxes can be opened, else return False
     """
 
-    keys = boxes[0]
+    keys = [0]
     i = 0
 
     for key in keys:
