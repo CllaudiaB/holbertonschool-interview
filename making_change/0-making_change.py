@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+"""Change comes from within"""
 
 def makeChange(coins, total):
     """Given a pile of coins of different values,
