@@ -8,7 +8,7 @@ def makeChange(coins, total):
        to meet a given amount total"""
 
     coins.sort(reverse=True)
-    
+
     count = 0
     for coin in coins:
         count += total // coin
